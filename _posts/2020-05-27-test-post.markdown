@@ -1,0 +1,71 @@
+---
+layout: post
+title:  "Test Post"
+description: I'll keep examples of markup here
+date:   2019-05-23 21:03:36 +0530
+categories: etc
+---
+A nice picture
+![texture theme preview](https://images.unsplash.com/photo-1500322969630-a26ab6eb64cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)
+
+Some text here
+
+javascript code
+
+```javascript
+const express = require('express')
+const app = express()
+ 
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+ 
+app.listen(3000)
+```
+ruby code
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Some more text here
+
+
+```scss
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	line-height: 1.5em;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+```
+
+
+And then some more text
+
+## Bold
+
+### Less bold
+
+
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```

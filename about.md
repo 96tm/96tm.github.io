@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Hi. My name is Viacheslav, this is my blog, and I'm going to post random notes here.
+Why "Robo Ramble"? Well, because I used to play a video game 
+with a similar name which stuck in my mind for some reason.
+Also, I expect articles posted here to be random and 
+not really well organized, hence "ramble". <br>
+You can contact me by <a href="mailto:khabcity@gmail.com">email</a>.

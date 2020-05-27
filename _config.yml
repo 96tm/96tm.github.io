@@ -13,22 +13,48 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Robo Ramble
+email: khabcity@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is my blog, and I'm going to post random notes here.
+  Why "Robo Ramble"? Well, because I used to play a video game 
+  with a similar name which stuck in my mind for some reason.
+  Also, I expect articles posted here to be random and 
+  not really well organized, hence "ramble".
+  
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "96tm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+show_excerpts: true # set to true to show excerpts on the homepage
+permalink: /posts/:title/
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-time-machine
+theme: texture
+highlighter:      rouge
 plugins:
   - jekyll-feed
+
+texture:
+  title: Robo Ramble
+  tagline: Random notes
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: true
+  date_format: "%b %-d, %Y"
+  
+  navigation:
+    - title: Blog
+      url: "/"
+    - title: About
+      url: "/about"
+
+  social_links:
+    # twitter: thelehhman
+    github:  96tm
+    #linkedIn: in/thelehhman # format: locale/username
+
+header_pages:
+ - about.md    
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
